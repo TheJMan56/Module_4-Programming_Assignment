@@ -67,7 +67,7 @@ curs.execute('SELECT * FROM books ORDER BY year')
 rows = curs.fetchall()
 
 for row in rows:
-    print(row[0], row[1], row[3])
+    print(row[0], row[1], row[2])
 
 #16.8
 from sqlalchemy import create_engine
